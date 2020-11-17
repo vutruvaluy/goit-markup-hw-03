@@ -1,0 +1,221 @@
+ :root{
+     --primari-text-color: #212121;
+     --text-color:  #757575;
+     --background-color: #FFFFFF ;
+     --accent-color: #2196F3;
+     --phone-color: rgba(255, 255, 255, 0.6);
+     --secondary-color-grey:#F5F4FA;
+     --secondary-color-blue:#2F303A;
+     --text-color-white: #FFFFFF;
+}
+ body{
+    background-color: var(--background-color);
+    color: var(--primari-text-color);
+    font-family: Roboto, sans-serif;
+ }
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,{
+     font-family: Comfortaa;
+ }
+ .container{
+     margin-left: auto;
+     margin-right: auto;
+     width: 1230px;
+     outline: 2px solid tomato;
+ }
+ .logo {
+     font-family: Raleway, cursive;
+     font-family: Raleway;
+     font-weight: 700;
+     font-size: 26px;
+     line-height: 1,19px;
+}
+ ul {
+    list-style: none;
+ }
+
+ /*Page header*/
+
+ .page-header{
+     background-color: #cccccc;
+ }
+
+ .site-nav a{
+     color: var(--accent-color);
+
+     font-weight: 500;
+     font-size: 14px;
+     line-height: 1,14px;
+ }
+ .site-nav a:hover,
+ .site-nav a:focus {
+     color: var(--accent-color);
+ }
+ .contacts-nav .link {
+     color: var(--accent-color);
+     font-weight: 500;
+     font-size: 14px;
+     line-height: 1,14px;
+ }
+ .contacts-nav .link:hover,
+ .contacts-nav .link:focus {
+     color: var(--accent-color) ;
+ }
+ .site-nav .link-nav {
+    color: var(--primari-text-color);
+}
+.site-nav .link-nav:hover,
+.site-nav .link-nav:focus {
+    color: var(--accent-color) ;
+}
+.site-nav .link .current{
+    color: var(--primari-text-color);
+}
+.contacts-nav .phone {
+    color: var(--text-color);
+    font-weight: 500;
+     font-size: 14px;
+     line-height: 1,14px;
+}
+.contacts-nav .phone:hover,
+ .contacts-nav .phone:focus {
+     color: var(--accent-color);
+ }
+ .section-text{
+     color: var(--text-color) ;
+     font-weight: 400px;
+    font-size: 16px;
+    line-height: 1,18px;
+ }
+ * {
+    margin: 0;
+    padding: 0;
+}
+a {
+   text-decoration: none;
+}
+.hero{
+    background-color: var(--secondary-color-blue);
+}
+.hero .title{
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: tomato;
+      
+    color: var(--text-color-white);
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1,36px;
+    text-align: center;
+
+}
+
+.hero .link{
+    display: inline-block;
+    border-radius: 6px;
+    padding: 10px 32px;
+    min-width: 130px;
+    
+    color: var(--text-color-white);
+    background-color: var(--accent-color);
+    border: 1px solid transparent;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1,87px;
+    text-align: center;
+}
+.hero .link:hover,
+.hero .link:focus{
+    background-color: var(--secondary-color-grey)
+}
+.contacts{
+    background-color: var(--secondary-color-blue);
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 1,71px;
+}
+.contacts .contacts-adress{
+    color: var(--text-color-white);
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 1,71px;
+}
+.contacts .contacts-connection{
+    color: var(--phone-color);
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 1,71px;
+}
+.command-selection{
+    background-color: var(--secondary-color-grey);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,26px;
+}
+.activ-list{
+    display: inline-block;
+    border-radius: 6px;
+    padding: 6px 22px;
+    min-width: 130px;
+
+    background-color: var(--accent-color);
+    color: var(--background-color);
+    border: 1px solid transparent;
+
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,62px;
+    text-align: center;
+}
+.passive-list{
+    display: inline-block;
+    border-radius: 6px;
+    padding: 6px 22px;
+    min-width: 130px;
+
+    background-color: var(--secondary-color-grey);
+    color: var(--primari-text-color);
+    border: 1px solid var(--accent-color);
+
+    text-align: center;
+}
+.activ-list:hover,
+.activ-list:focus{
+    background-color: var(--secondary-color-grey);
+}
+.passive-list:hover,
+.passive-list:focus{
+    background-color: var(--background-color);
+}
+.section h2{
+    font-weight: 700px;
+    font-size: 36px;
+    line-height: 1,5px;
+    text-align: center;
+
+}
+.command-selection .section-text{
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 19px;
+}
+.section .title{
+    font-weight: 700px;
+font-size: 14px;
+line-height: 1,14px;
+}
+.section .section-text{
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 1,14px;
+}
+.filter{
+
+}
