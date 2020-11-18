@@ -25,6 +25,7 @@
      margin-left: auto;
      margin-right: auto;
      width: 1230px;
+
      outline: 2px solid tomato;
  }
  .logo {
@@ -57,6 +58,7 @@
  }
  .contacts-nav .link {
      color: var(--accent-color);
+
      font-weight: 500;
      font-size: 14px;
      line-height: 1,14px;
@@ -77,6 +79,7 @@
 }
 .contacts-nav .phone {
     color: var(--text-color);
+
     font-weight: 500;
      font-size: 14px;
      line-height: 1,14px;
@@ -87,6 +90,7 @@
  }
  .section-text{
      color: var(--text-color) ;
+
      font-weight: 400px;
     font-size: 16px;
     line-height: 1,18px;
@@ -100,18 +104,18 @@ a {
 }
 .hero{
     background-color: var(--secondary-color-blue);
+    text-align: center;
 }
 .hero .title{
     margin-top: 0;
-    margin-bottom: 0;
-    background-color: tomato;
+    margin-bottom: 40px;
       
     color: var(--text-color-white);
 
     font-weight: 900;
     font-size: 44px;
     line-height: 1,36px;
-    text-align: center;
+    
 
 }
 
@@ -153,7 +157,12 @@ a {
     line-height: 1,71px;
 }
 .command-selection{
+    margin-left: 0;
+    margin-right: 10px;
+    background-color: tomato;
+
     background-color: var(--secondary-color-grey);
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1,26px;
@@ -176,7 +185,7 @@ a {
 }
 .passive-list{
     display: inline-block;
-    border-radius: 6px;
+    border-radius: 4px;
     padding: 6px 22px;
     min-width: 130px;
 
@@ -195,11 +204,16 @@ a {
     background-color: var(--background-color);
 }
 .section h2{
+    padding-top: 94px;
+    padding-bottom: 50px;
+
+
     font-weight: 700px;
     font-size: 36px;
     line-height: 1,5px;
     text-align: center;
 
+    background-color: var(--secondary-color-grey);
 }
 .command-selection .section-text{
     font-weight: 400px;
@@ -207,9 +221,14 @@ a {
     line-height: 19px;
 }
 .section .title{
+    margin-top: o;
+    margin-bottom: 10px;
+
+   
+
     font-weight: 700px;
-font-size: 14px;
-line-height: 1,14px;
+    font-size: 14px;
+    line-height: 1,14px;
 }
 .section .section-text{
     font-weight: 400px;
@@ -218,4 +237,8 @@ line-height: 1,14px;
 }
 .filter{
 
+}
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
