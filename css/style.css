@@ -27,8 +27,7 @@
      margin-left: auto;
      margin-right: auto;
      width: 1230px;
-     border: 2px solid blue;
-     background-color: teal;
+     
 
  }
  .logo {
@@ -41,6 +40,11 @@
  ul {
     list-style: none;
  }
+ img{
+    display: block:
+    max-width: 100%0
+    heigth: auto;
+    }
 
  /*Page header*/
 
@@ -108,7 +112,7 @@
 }
 .contacts-nav {
     display: flex;
-    margin-left: 331px;
+    margin-left: auto;
 }
 .contacts-nav .item + .item{
     margin-left: 50px;
@@ -126,17 +130,16 @@
  }
 /*Section*/
  .section{
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 .site-advantage{
-
     display: flex;
-    margin-left: wrap; 
+    margin-left: wrap;
+    margin-top: 94px; 
 }
 .site-advantage .item{
     width: calc((100%-90px) / 4);
-    background-color: orange;
     margin-right: 30px; 
 }
 .site-advantage .item:nth-child(4n){
@@ -145,19 +148,22 @@
 .site-works{
     display: flex;
     margin-left: wrap;
+    margin-bottom: 94px;
 }
 .site-works .item{
+   
     width: calc((100%-60px) / 3);
-    background-color: orange;
     margin-right: 30px; 
 }  
 .site-works .item:nth-child(3n){
     margin-right: 0;
 }
 
+
 .section.no-padding{
     padding-top: 0;
     padding-bottom: 94px;
+    background-color: var(--secondary-color-grey);
    
 }
  .section-text{
@@ -226,7 +232,6 @@ a {
 
 .command-selection .item{
     width: calc((100%-90px) / 4);
-    background-color: orange;
     margin-right: 30px;
     text-align: center;
 }
@@ -235,7 +240,7 @@ a {
 }
 .hero{
     padding-top: 200px;
-    padding-bottom: 280px;
+    padding-bottom: 200px;
 
     background-color: var(--secondary-color-blue);
     text-align: center;
@@ -331,8 +336,43 @@ a {
 .passive-list:focus{
     background-color: var(--background-color);
 }
+.site-filter{
+ display: flex;
+ flex-wrap: wrap;
+ margin-bottom: 94px;
+}
+.site-filter .item{
+    width: 370px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}  
+.site-filter .item:nth-child(3n) {
+    margin-right: 0;
+    
+}
+
 .adress{
-    background-color: orange;
-    margin-top: 0;
+    margin-top: 20px;
+    margin-right: auto;
+
+}
+.adress .item:not(:last-child){
     margin-bottom: 9px;
+
+}
+.main-contacts{
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.site-menu{
+    display: flex;
+    justify-content: center;
+    margin-top: 94px;
+    margin-bottom: 50px;
+}
+.site-menu .item + .item {
+   margin-left: 8px;
+   
 }
