@@ -27,9 +27,12 @@
      margin-left: auto;
      margin-right: auto;
      width: 1230px;
-     
-
- }
+    }
+    img {
+        display: block;
+        max-width: 100%;
+        heigth: auto;
+    }
  .logo {
      font-family: Raleway, cursive;
      font-family: Raleway;
@@ -40,16 +43,23 @@
  ul {
     list-style: none;
  }
- img{
-    display: block:
-    max-width: 100%0
-    heigth: auto;
-    }
-
- /*Page header*/
-
- .page-header{
+ html {
+     box-sizing: border-box;
  }
+ 
+*, 
+*::before,
+ *::after {
+    box-sizing: inherit;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+   text-decoration: none;
+}
+ /*Page header*/
 
  /*Main-nav*/
 
@@ -136,7 +146,7 @@
 .site-advantage{
     display: flex;
     margin-left: wrap;
-    margin-top: 94px; 
+    padding-top: 94px; 
 }
 .site-advantage .item{
     width: calc((100%-90px) / 4);
@@ -148,7 +158,7 @@
 .site-works{
     display: flex;
     margin-left: wrap;
-    margin-bottom: 94px;
+    padding-bottom: 94px;
 }
 .site-works .item{
    
@@ -167,6 +177,7 @@
    
 }
  .section-text{
+     margin-top: 4px;
 
      color: var(--text-color) ;
 
@@ -191,9 +202,8 @@
 
     font-weight: 400px;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1,18px;
 }
-
 
 
 .section .title{
@@ -205,17 +215,26 @@
     line-height: 1,14px;
 }
 .section .section-text{
+    margin-top: 0;
     font-weight: 400px;
     font-size: 14px;
     line-height: 1,14px;
 }
- * {
-    margin: 0;
-    padding: 0;
+
+.card-comand{
+    
+    width: 270px;
+    height: 368px;
+    left: 815px;
+    top: 1635px;
+
+    width: 270px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+
 }
-a {
-   text-decoration: none;
-}
+
+ 
 .command-selection{
 
     margin-left: 0;
@@ -255,18 +274,17 @@ a {
     font-size: 44px;
     line-height: 1,36px;
     
-
 }
 
 .hero .link{
     display: inline-block;
     border-radius: 6px;
     padding: 10px 32px;
-    min-width: 130px;
+    min-width: 136px;
     
     color: var(--text-color-white);
     background-color: var(--accent-color);
-    border: 1px solid transparent;
+    border: var(--accent-color);
 
     font-weight: 700;
     font-size: 16px;
@@ -275,7 +293,7 @@ a {
 }
 .hero .link:hover,
 .hero .link:focus{
-    background-color: var(--secondary-color-grey)
+    background-color: var(--accent-color)
 }
 .contacts{
     background-color: var(--secondary-color-blue);
@@ -297,18 +315,18 @@ a {
 }
 
 .name{
-    margin-top: 0px;
+    margin-top: 30px;
     margin-bottom: 10px;
 }
 .activ-list{
     display: inline-block;
-    border-radius: 6px;
+    border-radius: 4px;
     padding: 6px 22px;
-    min-width: 130px;
+    min-width: 70px;
 
     background-color: var(--accent-color);
     color: var(--background-color);
-    border: 1px solid transparent;
+    border: var(--accent-color);
 
 
     font-weight: 500;
@@ -320,26 +338,58 @@ a {
     display: inline-block;
     border-radius: 4px;
     padding: 6px 22px;
-    min-width: 130px;
+    min-width: 100px;
 
     background-color: var(--secondary-color-grey);
     color: var(--primari-text-color);
-    border: 1px solid var(--accent-color);
+    border: var(--secondary-color-grey);
+    
 
     text-align: center;
 }
 .activ-list:hover,
 .activ-list:focus{
-    background-color: var(--secondary-color-grey);
+    background-color: var(--accent-color);
 }
+.card{
+   width: 370px;
+   height: 404px;
+   left: 215px;
+    top: 1130px;
+}
+
+.card-contant {
+    
+    
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    padding: 20px 24px;
+
+    
+   
+}  
 .passive-list:hover,
 .passive-list:focus{
-    background-color: var(--background-color);
+    background-color: var(--secondary-color-grey);
 }
+
+.site-filter .heading{
+    margin-top: 0;
+    margin-bottom: 4px;
+     
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2px;
+}
+
 .site-filter{
  display: flex;
  flex-wrap: wrap;
- margin-bottom: 94px;
+ padding-bottom: 94px;
+
 }
 .site-filter .item{
     width: 370px;
@@ -348,7 +398,6 @@ a {
 }  
 .site-filter .item:nth-child(3n) {
     margin-right: 0;
-    
 }
 
 .adress{
@@ -361,15 +410,14 @@ a {
 
 }
 .main-contacts{
-    flex-direction: column;
-    justify-content: flex-start;
+    
     padding-top: 60px;
     padding-bottom: 60px;
 }
 .site-menu{
     display: flex;
     justify-content: center;
-    margin-top: 94px;
+    padding-top: 94px;
     margin-bottom: 50px;
 }
 .site-menu .item + .item {
