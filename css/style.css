@@ -28,14 +28,16 @@
      margin-right: auto;
      width: 1230px;
     }
-    img {
+
+img {
         display: block;
         max-width: 100%;
-        heigth: auto;
+        height: auto;
     }
+
  .logo {
      font-family: Raleway, cursive;
-     font-family: Raleway;
+     font-family:  Raleway;
      font-weight: 700;
      font-size: 26px;
      line-height: 1,19px;
@@ -143,6 +145,15 @@ a {
     padding-top: 0;
     padding-bottom: 0;
 }
+
+.site-advantage .section-text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1,71px;
+}
+
 .site-advantage{
     display: flex;
     margin-left: wrap;
@@ -177,35 +188,37 @@ a {
    
 }
  .section-text{
-     margin-top: 4px;
 
      color: var(--text-color) ;
-
-     font-weight: 400px;
-    font-size: 16px;
-    line-height: 1,18px;
  }
  .section h2{
     padding-top: 94px;
     padding-bottom: 50px;
 
-
+    font-family: Roboto;
+    font-style: normal;
     font-weight: 700px;
     font-size: 36px;
     line-height: 1,5px;
     text-align: center;
+    letter-spacing: 0.03em;
 
 }
 .command-selection .section-text{
-    margin-top: 0px;
-    margin-bottom: 30px;
-
-    font-weight: 400px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
     font-size: 16px;
     line-height: 1,18px;
 }
-
-
+.site-filter .section-text{
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1,87px;
+}
 .section .title{
     margin-top: o;
     margin-bottom: 10px;
@@ -214,19 +227,12 @@ a {
     font-size: 14px;
     line-height: 1,14px;
 }
-.section .section-text{
-    margin-top: 0;
-    font-weight: 400px;
-    font-size: 14px;
-    line-height: 1,14px;
-}
+
 
 .card-comand{
     
     width: 270px;
     height: 368px;
-    left: 815px;
-    top: 1635px;
 
     width: 270px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -270,17 +276,21 @@ a {
       
     color: var(--text-color-white);
 
+    font-family: Roboto;
+    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 1,36px;
     
+
 }
 
 .hero .link{
     display: inline-block;
     border-radius: 6px;
     padding: 10px 32px;
-    min-width: 136px;
+    min-width: 200px;
+    min-height: 50px;
     
     color: var(--text-color-white);
     background-color: var(--accent-color);
@@ -375,14 +385,13 @@ a {
 }
 
 .site-filter .heading{
-    margin-top: 0;
     margin-bottom: 4px;
-     
+
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
-    line-height: 2px;
+    line-height: 36px;
 }
 
 .site-filter{
