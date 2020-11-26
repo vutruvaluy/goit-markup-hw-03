@@ -71,12 +71,12 @@ a {
  }
  .site-nav a{
 
-     color: var(--accent-color);
-
-     font-weight: 500;
-     font-size: 14px;
-     line-height: 1,14px;
- }
+    color: var(--accent-color);
+    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14px;
+}
  .site-nav a:hover,
  .site-nav a:focus {
      color: var(--accent-color);
@@ -92,8 +92,14 @@ a {
  .site-nav .item:not(:last-child) {
      margin-right: 50px;
  }
+ 
 
  .site-nav .link-nav {
+    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14px;
+
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -105,6 +111,11 @@ a {
     color: var(--accent-color) ;
 }
 .site-nav .link-current{
+    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -133,8 +144,8 @@ a {
     color: var(--text-color);
 
     font-weight: 500;
-     font-size: 14px;
-     line-height: 1,14px;
+    font-size: 14px;
+    line-height: 1,14px;
 }
 .contacts-nav .phone:hover,
  .contacts-nav .phone:focus {
@@ -228,7 +239,6 @@ a {
     line-height: 1,14px;
 }
 
-
 .card-comand{
     
     width: 270px;
@@ -240,8 +250,7 @@ a {
 
 }
 
- 
-.command-selection{
+ .command-selection{
 
     margin-left: 0;
     margin-right: 10;
@@ -303,6 +312,7 @@ a {
 }
 .hero .link:hover,
 .hero .link:focus{
+    text-decoration: underline ;
     background-color: var(--accent-color)
 }
 .contacts{
@@ -337,13 +347,20 @@ a {
     background-color: var(--accent-color);
     color: var(--background-color);
     border: var(--accent-color);
-
-
+    
     font-weight: 500;
     font-size: 16px;
     line-height: 1,62px;
     text-align: center;
 }
+
+.activ-list:hover,
+.activ-list:focus{
+    text-decoration: underline ;
+    color: var(--background-color);
+
+}
+
 .passive-list{
     display: inline-block;
     border-radius: 4px;
@@ -352,15 +369,18 @@ a {
 
     background-color: var(--secondary-color-grey);
     color: var(--primari-text-color);
-    border: var(--secondary-color-grey);
+    border: var(--accent-color);
     
-
     text-align: center;
 }
-.activ-list:hover,
-.activ-list:focus{
-    background-color: var(--accent-color);
+
+.passive-list:hover,
+.passive-list:focus{
+    text-decoration: underline ;
+    color: var(--accent-color);
 }
+}
+
 .card{
    width: 370px;
    height: 404px;
@@ -379,10 +399,7 @@ a {
     
    
 }  
-.passive-list:hover,
-.passive-list:focus{
-    background-color: var(--secondary-color-grey);
-}
+
 
 .site-filter .heading{
     margin-bottom: 4px;
