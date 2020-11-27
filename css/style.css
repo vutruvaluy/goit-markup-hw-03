@@ -125,9 +125,13 @@ a {
 .contacts-nav .link {
     color: var(--accent-color);
 
+    font-family: Roboto;
+    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1,14px;
+    letter-spacing: 0.02em;
+
 }
 .contacts-nav .link-current:hover,
 .contacts-nav .link-current:focus {
@@ -199,6 +203,12 @@ a {
    
 }
  .section-text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1,71px;
+    letter-spacing: 0.03em;
 
      color: var(--text-color) ;
  }
@@ -234,10 +244,15 @@ a {
     margin-top: o;
     margin-bottom: 10px;
 
-    font-weight: 700px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
     font-size: 14px;
     line-height: 1,14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
+
 
 .card-comand{
     
@@ -348,16 +363,21 @@ a {
     color: var(--background-color);
     border: var(--accent-color);
     
+    font-family: Roboto;
+    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1,62px;
     text-align: center;
 }
 
-.activ-list:hover,
-.activ-list:focus{
+.activ-list:hover{
     text-decoration: underline ;
     color: var(--background-color);
+}
+.activ-list:focus{
+    color: var(--background-color);
+    
 
 }
 
@@ -371,15 +391,23 @@ a {
     color: var(--primari-text-color);
     border: var(--accent-color);
     
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,62px;
     text-align: center;
 }
 
-.passive-list:hover,
-.passive-list:focus{
+.passive-list:hover{
     text-decoration: underline ;
     color: var(--accent-color);
 }
+.passive-list:focus{
+    color: var(--accent-color);
+    
 }
+
 
 .card{
    width: 370px;
@@ -409,6 +437,7 @@ a {
     font-weight: bold;
     font-size: 18px;
     line-height: 36px;
+    letter-spacing: 0.06em;
 }
 
 .site-filter{
