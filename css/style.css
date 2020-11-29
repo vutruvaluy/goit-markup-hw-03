@@ -62,7 +62,9 @@ a {
    text-decoration: none;
 }
  /*Page header*/
-
+.page-header{
+    border: 1px solid #ECECEC;
+}
  /*Main-nav*/
 
  .main-nav {
@@ -161,13 +163,7 @@ a {
     padding-bottom: 0;
 }
 
-.site-advantage .section-text{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 1,71px;
-}
+
 
 .site-advantage{
     display: flex;
@@ -207,7 +203,7 @@ a {
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 1,71px;
+    line-height: 24px;
     letter-spacing: 0.03em;
 
      color: var(--text-color) ;
@@ -248,7 +244,7 @@ a {
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
-    line-height: 1,14px;
+    line-height: 1,71px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -353,39 +349,14 @@ a {
     margin-top: 30px;
     margin-bottom: 10px;
 }
-.activ-list{
-    display: inline-block;
-    border-radius: 4px;
-    padding: 6px 22px;
-    min-width: 70px;
 
-    background-color: var(--accent-color);
-    color: var(--background-color);
-    border: var(--accent-color);
-    
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1,62px;
-    text-align: center;
-}
 
-.activ-list:hover{
-    text-decoration: underline ;
-    color: var(--background-color);
-}
-.activ-list:focus{
-    color: var(--background-color);
-    
-
-}
 
 .passive-list{
     display: inline-block;
     border-radius: 4px;
     padding: 6px 22px;
-    min-width: 100px;
+    min-width: 73px;
 
     background-color: var(--secondary-color-grey);
     color: var(--primari-text-color);
@@ -399,12 +370,10 @@ a {
     text-align: center;
 }
 
-.passive-list:hover{
-    text-decoration: underline ;
-    color: var(--accent-color);
-}
+.passive-list:hover,
 .passive-list:focus{
-    color: var(--accent-color);
+    background-color: var(--accent-color);
+    color: var(--background-color);
     
 }
 
@@ -474,6 +443,7 @@ a {
     justify-content: center;
     padding-top: 94px;
     margin-bottom: 50px;
+
 }
 .site-menu .item + .item {
    margin-left: 8px;
